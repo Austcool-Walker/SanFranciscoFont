@@ -1,0 +1,2 @@
+#! /bin/bash
+for i in *.ttf; do otf2ttf -o out *otf* "$i" "${i}"; done
